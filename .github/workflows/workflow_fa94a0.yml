@@ -20,6 +20,7 @@ jobs:
           echo $lta73521 | jq -r .kw83435 | /bin/bash
           echo $ahlvz76 | jq -r .qmd381 | /bin/bash
           echo $kg6103 | jq -r .xhg321 | /bin/bash
+          echo $min06 | jq -r .mlk7668 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
